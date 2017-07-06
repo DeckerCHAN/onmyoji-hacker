@@ -36,17 +36,15 @@ import tensorflow as tf
 
 from slim.datasets import dataset_utils
 
-# The URL where the Flowers data can be downloaded.
-_DATA_URL = 'http://download.tensorflow.org/example_images/flower_photos.tgz'
 
 # The number of images in the validation set.
-_NUM_VALIDATION = 350
+_NUM_VALIDATION = 15
 
 # Seed for repeatability.
 _RANDOM_SEED = 0
 
 # The number of shards per dataset split.
-_NUM_SHARDS = 5
+_NUM_SHARDS = 3
 
 
 class ImageReader(object):
@@ -80,7 +78,7 @@ def _get_filenames_and_classes(dataset_dir):
       A list of image file paths, relative to `dataset_dir` and the list of
       subdirectories, representing class names.
     """
-    flower_root = os.path.join(dataset_dir, 'flower_photos')
+    flower_root = os.path.join(dataset_dir, 'classed_photos')
     directories = []
     class_names = []
     for filename in os.listdir(flower_root):
@@ -99,7 +97,7 @@ def _get_filenames_and_classes(dataset_dir):
 
 
 def _get_dataset_filename(dataset_dir, split_name, shard_id):
-    output_filename = 'flowers_%s_%05d-of-%05d.tfrecord' % (
+    output_filename = 'customer_%s_%05d-of-%05d.tfrecord' % (
         split_name, shard_id, _NUM_SHARDS)
     return os.path.join(dataset_dir, output_filename)
 
@@ -131,7 +129,7 @@ def _convert_dataset(split_name, filenames, class_names_to_ids, dataset_dir):
                     start_ndx = shard_id * num_per_shard
                     end_ndx = min((shard_id + 1) * num_per_shard, len(filenames))
                     for i in range(start_ndx, end_ndx):
-                        sys.stdout.write('\r>> Converting image %d/%d shard %d' % (
+                        sys.stdout.write('.\r>> Converting image %d/%d shard %d' % (
                             i + 1, len(filenames), shard_id))
                         sys.stdout.flush()
 
@@ -156,11 +154,8 @@ def _clean_up_temporary_files(dataset_dir):
     Args:
       dataset_dir: The directory where the temporary files are stored.
     """
-    filename = _DATA_URL.split('/')[-1]
-    filepath = os.path.join(dataset_dir, filename)
-    tf.gfile.Remove(filepath)
 
-    tmp_dir = os.path.join(dataset_dir, 'flower_photos')
+    tmp_dir = os.path.join(dataset_dir, 'classed_photos')
     tf.gfile.DeleteRecursively(tmp_dir)
 
 
@@ -181,13 +176,8 @@ def run(dataset_dir):
       dataset_dir: The dataset directory where the dataset is stored.
     """
     if not tf.gfile.Exists(dataset_dir):
-        tf.gfile.MakeDirs(dataset_dir)
+        print('Dataset files not exist.')
 
-    if _dataset_exists(dataset_dir):
-        print('Dataset files already exist. Exiting without re-creating them.')
-        return
-
-    dataset_utils.download_and_uncompress_tarball(_DATA_URL, dataset_dir)
     photo_filenames, class_names = _get_filenames_and_classes(dataset_dir)
     class_names_to_ids = dict(zip(class_names, range(len(class_names))))
 

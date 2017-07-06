@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python3 slim/train_image_classifier.py --dataset_dir=/home/deckerchan/Workspace/Python/onmyoji-hacker/slim/data/game --train_dir=/home/deckerchan/Workspace/Python/onmyoji-hacker/slim/data/logs --dataset_name=customer --train_number=60 --test_number=10 --dataset_split_name=train --model_name=vgg_16
