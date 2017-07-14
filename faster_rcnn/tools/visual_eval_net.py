@@ -3,21 +3,16 @@
 # Licensed under The MIT License [see LICENSE for details]
 # Written by Zheqi he, Xinlei Chen, based on code from Ross Girshick
 # --------------------------------------------------------
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
-import _init_paths
-from model.result import test_eval
-from model.config import cfg, cfg_from_file, cfg_from_list
-from datasets.factory import get_imdb
+from src.model.result import test_eval
+from src.model.config import cfg, cfg_from_file, cfg_from_list
+from src.datasets.factory import get_imdb
 import argparse
 import pprint
 import time, os, sys
 
 import tensorflow as tf
-from nets.vgg16 import vgg16
-from nets.resnet_v1 import resnetv1
+from src.nets.vgg16 import vgg16
+from src.nets.resnet_v1 import resnetv1
 
 def parse_args():
   """

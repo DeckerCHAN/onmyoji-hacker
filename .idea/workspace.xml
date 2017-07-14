@@ -1,17 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48927e6f-6692-4217-a027-fab689a2abc1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slim/convert_data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slim/datasets/customer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/slim/datasets/convert_flowers.py" afterPath="$PROJECT_DIR$/slim/datasets/convert_customer_set.py" />
+    <list default="true" id="48927e6f-6692-4217-a027-fab689a2abc1" name="Default" comment="Added src models.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/convert_customer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faster_rcnn/docker/Dockerfile.cuda-7.5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faster_rcnn/docker/Dockerfile.cuda-8.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/single_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fixed_rcnn_run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sampling/bakcground_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sampling/drag_drop_shape.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sampling/place_top.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sampling/resize_items.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sampling/show_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/mouse_event.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/WORKSPACE" afterPath="$PROJECT_DIR$/slim/WORKSPACE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/mobilenet_v1.png" afterPath="$PROJECT_DIR$/slim/nets/mobilenet_v1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/onmyoji-hacker.iml" afterPath="$PROJECT_DIR$/.idea/onmyoji-hacker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling.py" afterPath="$PROJECT_DIR$/sampling.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/capture.py" afterPath="$PROJECT_DIR$/capture.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval.sh" afterPath="$PROJECT_DIR$/eval.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sampling/__init__.py" afterPath="$PROJECT_DIR$/sampling/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/BUILD" afterPath="$PROJECT_DIR$/slim/BUILD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/README.md" afterPath="$PROJECT_DIR$/slim/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/__init__.py" afterPath="$PROJECT_DIR$/slim/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/__init__.py" afterPath="$PROJECT_DIR$/slim/datasets/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/cifar10.py" afterPath="$PROJECT_DIR$/slim/datasets/cifar10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/convert_customer.py" afterPath="$PROJECT_DIR$/slim/datasets/convert_customer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/customer.py" afterPath="$PROJECT_DIR$/slim/datasets/customer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/dataset_factory.py" afterPath="$PROJECT_DIR$/slim/datasets/dataset_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/dataset_utils.py" afterPath="$PROJECT_DIR$/slim/datasets/dataset_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/download_and_convert_cifar10.py" afterPath="$PROJECT_DIR$/slim/datasets/download_and_convert_cifar10.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/download_and_convert_flowers.py" afterPath="$PROJECT_DIR$/slim/datasets/download_and_convert_flowers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/download_and_convert_mnist.py" afterPath="$PROJECT_DIR$/slim/datasets/download_and_convert_mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/flowers.py" afterPath="$PROJECT_DIR$/slim/datasets/flowers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/imagenet.py" afterPath="$PROJECT_DIR$/slim/datasets/imagenet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/datasets/mnist.py" afterPath="$PROJECT_DIR$/slim/datasets/mnist.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/deployment/__init__.py" afterPath="$PROJECT_DIR$/slim/deployment/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/deployment/model_deploy.py" afterPath="$PROJECT_DIR$/slim/deployment/model_deploy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/deployment/model_deploy_test.py" afterPath="$PROJECT_DIR$/slim/deployment/model_deploy_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/download_and_convert_data.py" afterPath="$PROJECT_DIR$/slim/download_and_convert_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/eval_image_classifier.py" afterPath="$PROJECT_DIR$/slim/eval_image_classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/export_inference_graph.py" afterPath="$PROJECT_DIR$/slim/export_inference_graph.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/export_inference_graph_test.py" afterPath="$PROJECT_DIR$/slim/export_inference_graph_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/__init__.py" afterPath="$PROJECT_DIR$/slim/nets/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/alexnet.py" afterPath="$PROJECT_DIR$/slim/nets/alexnet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/alexnet_test.py" afterPath="$PROJECT_DIR$/slim/nets/alexnet_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/cifarnet.py" afterPath="$PROJECT_DIR$/slim/nets/cifarnet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception.py" afterPath="$PROJECT_DIR$/slim/nets/inception.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_resnet_v2.py" afterPath="$PROJECT_DIR$/slim/nets/inception_resnet_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_resnet_v2_test.py" afterPath="$PROJECT_DIR$/slim/nets/inception_resnet_v2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_utils.py" afterPath="$PROJECT_DIR$/slim/nets/inception_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v1.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v1_test.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v1_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v2.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v2_test.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v3.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v3_test.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v3_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v4.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/inception_v4_test.py" afterPath="$PROJECT_DIR$/slim/nets/inception_v4_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/lenet.py" afterPath="$PROJECT_DIR$/slim/nets/lenet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/mobilenet_v1.md" afterPath="$PROJECT_DIR$/slim/nets/mobilenet_v1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/mobilenet_v1.py" afterPath="$PROJECT_DIR$/slim/nets/mobilenet_v1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/mobilenet_v1_test.py" afterPath="$PROJECT_DIR$/slim/nets/mobilenet_v1_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/nets_factory.py" afterPath="$PROJECT_DIR$/slim/nets/nets_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/nets_factory_test.py" afterPath="$PROJECT_DIR$/slim/nets/nets_factory_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/overfeat.py" afterPath="$PROJECT_DIR$/slim/nets/overfeat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/overfeat_test.py" afterPath="$PROJECT_DIR$/slim/nets/overfeat_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/resnet_utils.py" afterPath="$PROJECT_DIR$/slim/nets/resnet_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/resnet_v1.py" afterPath="$PROJECT_DIR$/slim/nets/resnet_v1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/resnet_v1_test.py" afterPath="$PROJECT_DIR$/slim/nets/resnet_v1_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/resnet_v2.py" afterPath="$PROJECT_DIR$/slim/nets/resnet_v2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/resnet_v2_test.py" afterPath="$PROJECT_DIR$/slim/nets/resnet_v2_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/vgg.py" afterPath="$PROJECT_DIR$/slim/nets/vgg.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/nets/vgg_test.py" afterPath="$PROJECT_DIR$/slim/nets/vgg_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/preprocessing/__init__.py" afterPath="$PROJECT_DIR$/slim/preprocessing/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/preprocessing/cifarnet_preprocessing.py" afterPath="$PROJECT_DIR$/slim/preprocessing/cifarnet_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/preprocessing/inception_preprocessing.py" afterPath="$PROJECT_DIR$/slim/preprocessing/inception_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/preprocessing/lenet_preprocessing.py" afterPath="$PROJECT_DIR$/slim/preprocessing/lenet_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/preprocessing/preprocessing_factory.py" afterPath="$PROJECT_DIR$/slim/preprocessing/preprocessing_factory.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/preprocessing/vgg_preprocessing.py" afterPath="$PROJECT_DIR$/slim/preprocessing/vgg_preprocessing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/scripts/finetune_inception_v1_on_flowers.sh" afterPath="$PROJECT_DIR$/slim/scripts/finetune_inception_v1_on_flowers.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/scripts/finetune_inception_v3_on_flowers.sh" afterPath="$PROJECT_DIR$/slim/scripts/finetune_inception_v3_on_flowers.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" afterPath="$PROJECT_DIR$/slim/scripts/finetune_resnet_v1_50_on_flowers.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/scripts/train_cifarnet_on_cifar10.sh" afterPath="$PROJECT_DIR$/slim/scripts/train_cifarnet_on_cifar10.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/scripts/train_lenet_on_mnist.sh" afterPath="$PROJECT_DIR$/slim/scripts/train_lenet_on_mnist.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/setup.py" afterPath="$PROJECT_DIR$/slim/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/slim_walkthrough.ipynb" afterPath="$PROJECT_DIR$/slim/slim_walkthrough.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slim/train_image_classifier.py" afterPath="$PROJECT_DIR$/slim/train_image_classifier.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train.sh" afterPath="$PROJECT_DIR$/train.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/LICENSE" afterPath="$PROJECT_DIR$/faster_rcnn/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/README.md" afterPath="$PROJECT_DIR$/faster_rcnn/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/cfgs/res101-lg.yml" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/cfgs/res101-lg.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/cfgs/res101.yml" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/cfgs/res101.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/cfgs/res50.yml" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/cfgs/res50.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/cfgs/vgg16.yml" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/cfgs/vgg16.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/logs/.gitignore" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/logs/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/scripts/convert_vgg16.sh" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/scripts/convert_vgg16.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/scripts/test_faster_rcnn.sh" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/scripts/test_faster_rcnn.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/experiments/scripts/train_faster_rcnn.sh" afterPath="$PROJECT_DIR$/faster_rcnn/experiments/scripts/train_faster_rcnn.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/Makefile" afterPath="$PROJECT_DIR$/faster_rcnn/src/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/VOCdevkit-matlab-wrapper/get_voc_opts.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/VOCdevkit-matlab-wrapper/voc_eval.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/VOCdevkit-matlab-wrapper/xVOCap.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/coco.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/coco.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/derek_set.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/derek_set.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/ds_utils.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/ds_utils.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/factory.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/factory.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/imdb.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/imdb.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/pascal_voc.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/pascal_voc.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/tools/mcg_munge.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/tools/mcg_munge.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/datasets/voc_eval.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/datasets/voc_eval.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/anchor_target_layer.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/anchor_target_layer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/generate_anchors.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/generate_anchors.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/proposal_layer.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/proposal_layer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/proposal_target_layer.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/proposal_target_layer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/proposal_top_layer.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/proposal_top_layer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/layer_utils/snippets.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/layer_utils/snippets.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/bbox_transform.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/bbox_transform.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/config.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/config.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/nms_wrapper.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/nms_wrapper.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/result.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/result.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/test.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/model/train_val.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/model/train_val.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nets/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/nets/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nets/network.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/nets/network.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nets/resnet_v1.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/nets/resnet_v1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nets/vgg16.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/nets/vgg16.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/.gitignore" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/cpu_nms.c" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/cpu_nms.c" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/cpu_nms.pyx" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/cpu_nms.pyx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/gpu_nms.cpp" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/gpu_nms.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/gpu_nms.hpp" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/gpu_nms.hpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/gpu_nms.pyx" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/gpu_nms.pyx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/nms_kernel.cu" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/nms_kernel.cu" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/nms/py_cpu_nms.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/nms/py_cpu_nms.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/roi_data_layer/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/roi_data_layer/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/roi_data_layer/layer.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/roi_data_layer/layer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/roi_data_layer/minibatch.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/roi_data_layer/minibatch.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/roi_data_layer/roidb.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/roi_data_layer/roidb.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/setup.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/setup.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/.gitignore" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/__init__.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/bbox.pyx" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/bbox.pyx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/blob.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/blob.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/boxes_grid.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/boxes_grid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/nms.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/nms.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/nms.pyx" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/nms.pyx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/src/utils/timer.py" afterPath="$PROJECT_DIR$/faster_rcnn/src/utils/timer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/_init_paths.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/_init_paths.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/convert_from_depre.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/convert_from_depre.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/demo.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/demo.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/reval.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/reval.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/test_net.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/test_net.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/trainval_net.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/trainval_net.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/faster-rcnn/tools/visual_eval_net.py" afterPath="$PROJECT_DIR$/faster_rcnn/tools/visual_eval_net.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sampling.py" afterPath="$PROJECT_DIR$/sampling/sampling.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sampling/utils.py" afterPath="$PROJECT_DIR$/utils/common_utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,115 +179,103 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/onmyoji_hacker$sampling.coverage" NAME="sampling Coverage Results" MODIFIED="1499280824185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/onmyoji_hacker$train_image_classifier.coverage" NAME="train_image_classifier Coverage Results" MODIFIED="1499287426250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slim" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$eval_image_classifier.coverage" NAME="eval_image_classifier Coverage Results" MODIFIED="1499336008589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slim" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$run.coverage" NAME="run Coverage Results" MODIFIED="1499715975246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$visual_eval_net.coverage" NAME="visual_eval_net Coverage Results" MODIFIED="1499715091151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faster_rcnn" />
     <SUITE FILE_PATH="coverage/onmyoji_hacker$convert_data.coverage" NAME="convert_data Coverage Results" MODIFIED="1499283916076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slim" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$mouse_event.coverage" NAME="mouse_event Coverage Results" MODIFIED="1499765346935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$show_image.coverage" NAME="show_image Coverage Results" MODIFIED="1499536031184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$resize_items.coverage" NAME="resize_items Coverage Results" MODIFIED="1499539148219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$sampling.coverage" NAME="sampling Coverage Results" MODIFIED="1499280824185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$new_sampling.coverage" NAME="new_sampling Coverage Results" MODIFIED="1499686677171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$drag_drop_shape.coverage" NAME="drag_drop_shape Coverage Results" MODIFIED="1499537619994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$place_top.coverage" NAME="place_top Coverage Results" MODIFIED="1499535605745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$network.coverage" NAME="network Coverage Results" MODIFIED="1499969643885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$trainval_net.coverage" NAME="trainval_net Coverage Results" MODIFIED="1499711519044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/faster-rcnn/tools" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$bakcground_image.coverage" NAME="bakcground_image Coverage Results" MODIFIED="1499537796151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/onmyoji_hacker$train_image_classifier.coverage" NAME="train_image_classifier Coverage Results" MODIFIED="1499359309652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/slim" />
     <SUITE FILE_PATH="coverage/onmyoji_hacker$capture.coverage" NAME="capture Coverage Results" MODIFIED="1499271806802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_flower.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slim/train_flower.sh">
+      <file leaf-file-name="fixed_rcnn_run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixed_rcnn_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="train_image_classifier.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slim/train_image_classifier.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="662">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="24" />
               <folding>
-                <element signature="e#759#797#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.sh">
+      <file leaf-file-name="opnet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/opnet.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataset_data_provider.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/contrib/slim/python/slim/data/dataset_data_provider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parallel_reader.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/contrib/slim/python/slim/data/parallel_reader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="errors_impl.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/errors_impl.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="467" column="0" lean-forward="false" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flags.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/platform/flags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataset_factory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slim/datasets/dataset_factory.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            <state relative-caret-position="2596">
+              <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
               <folding>
-                <element signature="e#768#806#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/slim/datasets/customer.py">
+      <file leaf-file-name="engine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="660">
+              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
               <folding>
-                <element signature="e#849#887#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#820#1552#0" expanded="false" />
+                <element signature="e#1593#1774#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/contrib/slim/python/slim/data/dataset.py">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visual_eval_net.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/faster_rcnn/tools/visual_eval_net.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1826">
+              <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+              <folding>
+                <element signature="e#272#310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mouse_event.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/mouse_event.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding>
+                <element signature="e#19#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/common_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -151,30 +297,76 @@
       <find>dataset_name</find>
       <find>batch</find>
       <find>FLAGS.batch_size</find>
+      <find>test</find>
+      <find>tmp</find>
+      <find>FLAGS.optimizer</find>
+      <find>optimizer</find>
+      <find>learning_rate</find>
+      <find>flower</find>
+      <find>butt</find>
+      <find>classed_ph</find>
+      <find>13</find>
+      <find>labels</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/slim/nets/inception_resnet_v2_test.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/capture.py" />
-        <option value="$PROJECT_DIR$/slim/eval_image_classifier.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/slim/datasets/convert_flowers.py" />
-        <option value="$PROJECT_DIR$/slim/convert_data.py" />
         <option value="$PROJECT_DIR$/slim/download_and_convert_data.py" />
         <option value="$PROJECT_DIR$/sampling.py" />
         <option value="$PROJECT_DIR$/slim/datasets/convert_customer_set.py" />
-        <option value="$PROJECT_DIR$/slim/datasets/customer.py" />
         <option value="$PROJECT_DIR$/train_image_classifier.py" />
-        <option value="$PROJECT_DIR$/slim/datasets/dataset_factory.py" />
-        <option value="$PROJECT_DIR$/slim/train_image_classifier.py" />
         <option value="$PROJECT_DIR$/train" />
+        <option value="$PROJECT_DIR$/slim/eval_image_classifier.py" />
+        <option value="$PROJECT_DIR$/eval.sh" />
+        <option value="$PROJECT_DIR$/slim/data/customer/description.json" />
+        <option value="$PROJECT_DIR$/slim/data/customer/desc.json" />
+        <option value="$PROJECT_DIR$/slim/train_image_classifier.py" />
+        <option value="$PROJECT_DIR$/slim/datasets/dataset_factory.py" />
+        <option value="$PROJECT_DIR$/slim/datasets/customer.py" />
         <option value="$PROJECT_DIR$/train.sh" />
+        <option value="$PROJECT_DIR$/sampling/show_image.py" />
+        <option value="$PROJECT_DIR$/sampling/place_top.py" />
+        <option value="$PROJECT_DIR$/sampling/bakcground_image.py" />
+        <option value="$PROJECT_DIR$/sampling/resize_items.py" />
+        <option value="$PROJECT_DIR$/sampling/drag_drop_shape.py" />
+        <option value="$PROJECT_DIR$/capture.py" />
+        <option value="$PROJECT_DIR$/sampling/image_feeder.py" />
+        <option value="$PROJECT_DIR$/sampling/utils.py" />
+        <option value="$PROJECT_DIR$/sampling/new_sampling.py" />
+        <option value="$PROJECT_DIR$/slim/scripts/finetune_inception_v3_on_flowers.sh" />
+        <option value="$PROJECT_DIR$/slim/datasets/convert_customer.py" />
+        <option value="$PROJECT_DIR$/slim/README.md" />
+        <option value="$PROJECT_DIR$/faster-rcnn/tools/trainval_net.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/lib/datasets/factory.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/lib/model/result.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/tools/visual_eval_net.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/datasets/derek_set.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/datasets/imdb.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/nets/vgg16.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/nets/network.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/layer_utils/snippets.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/layer_utils/proposal_layer.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/model/nms_wrapper.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/layer_utils/proposal_top_layer.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/datasets/factory.py" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/model/result.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/faster-rcnn/src/model/single_run.py" />
+        <option value="$PROJECT_DIR$/faster_rcnn/src/datasets/derek_set.py" />
+        <option value="$PROJECT_DIR$/faster_rcnn/src/nets/network.py" />
+        <option value="$PROJECT_DIR$/utils/mouse.log" />
+        <option value="$PROJECT_DIR$/utils/mouse_event.py" />
+        <option value="$PROJECT_DIR$/src/network.py" />
+        <option value="$PROJECT_DIR$/utils/classes_utils.py" />
+        <option value="$PROJECT_DIR$/utils/common_utils.py" />
+        <option value="$PROJECT_DIR$/faster_rcnn/src/model/single_run.py" />
+        <option value="$PROJECT_DIR$/src/engine.py" />
+        <option value="$PROJECT_DIR$/run.py" />
       </list>
     </option>
   </component>
@@ -185,12 +377,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
-    <option name="y" value="268" />
-    <option name="width" value="1845" />
-    <option name="height" value="988" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -206,7 +400,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,7 +423,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,171 +437,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprocessing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deployment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="slim" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sampling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="onmyoji-hacker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/faster-rcnn/src/model/result.py&#10;/home/deckerchan/Workspace/Python/onmyoji-hacker/slim/data/customer/description.json&#10;/home/deckerchan/Workspace/Python/onmyoji-hacker/utils/mouse.log" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$/slim/datasets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/sampling" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/faster-rcnn/src/model" />
+      <recent name="$PROJECT_DIR$/slim/datasets" />
+      <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,92 +476,92 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_image_classifier">
-    <configuration default="false" name="capture" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
+  <component name="RunManager" selected="Python.network">
+    <configuration default="false" name="eval.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="onmyoji-hacker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/capture.py" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval.sh" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sampling" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="onmyoji-hacker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sampling.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="convert_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slim" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="onmyoji-hacker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slim/convert_data.py" />
-      <option name="PARAMETERS" value="--dataset_dir   $PROJECT_DIR$/slim/data/game" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="train_image_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/slim" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="false" />
-      <option name="ADD_SOURCE_ROOTS" value="false" />
-      <module name="onmyoji-hacker" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slim/train_image_classifier.py" />
-      <option name="PARAMETERS" value="--dataset_dir=$PROJECT_DIR$/slim/data/game  --train_dir=$PROJECT_DIR$/slim/data/logs --dataset_name=customer --train_number=60 --test_number=10 --dataset_split_name=train --model_name=vgg_16" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="onmyoji-hacker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fixed_rcnn_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="visual_eval_net" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/faster_rcnn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="onmyoji-hacker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/faster_rcnn/tools/visual_eval_net.py" />
+      <option name="PARAMETERS" value="--imdb derek_set_val --model $PROJECT_DIR$/../tf-faster-rcnn/output/vgg16/dc_train/default/vgg16_faster_rcnn_iter_2000.ckpt --cfg experiments/cfgs/vgg16.yml --net vgg16 --set ANCHOR_SCALES [8,16,32] ANCHOR_RATIOS [0.5,1,2] TRAIN.STEPSIZE 50000" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mouse_event" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="onmyoji-hacker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/mouse_event.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="network" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="onmyoji-hacker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="G:\Python\onmyoji-hacker\src\opnet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -659,17 +713,17 @@
       <method />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.capture" />
-      <item index="1" class="java.lang.String" itemvalue="Python.sampling" />
-      <item index="2" class="java.lang.String" itemvalue="Python.convert_data" />
-      <item index="3" class="java.lang.String" itemvalue="Python.train_image_classifier" />
+      <item index="0" class="java.lang.String" itemvalue="Python.run" />
+      <item index="1" class="java.lang.String" itemvalue="Python.visual_eval_net" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mouse_event" />
+      <item index="3" class="java.lang.String" itemvalue="Python.network" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.train_image_classifier" />
-        <item index="1" class="java.lang.String" itemvalue="Python.convert_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.sampling" />
-        <item index="3" class="java.lang.String" itemvalue="Python.capture" />
+        <item index="0" class="java.lang.String" itemvalue="Python.network" />
+        <item index="1" class="java.lang.String" itemvalue="Python.mouse_event" />
+        <item index="2" class="java.lang.String" itemvalue="Python.run" />
+        <item index="3" class="java.lang.String" itemvalue="Python.visual_eval_net" />
       </list>
     </recent_temporary>
   </component>
@@ -687,25 +741,92 @@
       <option name="presentableId" value="Default" />
       <updated>1499256075008</updated>
     </task>
+    <task id="LOCAL-00001" summary="Back to origin slim.">
+      <created>1499351301187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499351301187</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished train process with customer dataset.">
+      <created>1499359594146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499359594146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added new sampling tool.">
+      <created>1499622803227</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1499622803227</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Improved sampling tool.">
+      <created>1499685345416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1499685345416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added more to git ignore.">
+      <created>1499712055336</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499712055336</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added fast rcnn!">
+      <created>1499712251098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499712251098</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added src models.">
+      <created>1499712815062</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499712815062</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added engine and network for oeration.">
+      <created>1500046692427</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1500046692427</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="268" width="1845" height="988" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36542922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35908142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25403002" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31449893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34655532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -719,296 +840,394 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Back to origin slim." />
+    <MESSAGE value="Finished train process with customer dataset." />
+    <MESSAGE value="Added new sampling tool." />
+    <MESSAGE value="Improved sampling tool." />
+    <MESSAGE value="Added more to git ignore." />
+    <MESSAGE value="Added fast rcnn!" />
+    <MESSAGE value="Added src models." />
+    <MESSAGE value="Added engine and network for oeration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added engine and network for oeration." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/capture.py</url>
-          <line>14</line>
+          <line>15</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/slim/train_image_classifier.py</url>
-          <line>408</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/slim/datasets/convert_customer.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/slim/datasets/customer.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sampling/new_sampling.py</url>
+          <line>184</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sampling/new_sampling.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/faster_rcnn/tools/visual_eval_net.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/faster_rcnn/tools/visual_eval_net.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/opnet.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="27" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="os.path.abspath(os.path.join(dataset_dir, &quot;labels.txt&quot;))" language="Python" />
+        <watch expression="input_plh.shape.dims[-1].value" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slim/nets/inception_resnet_v2_test.py">
+    <entry file="file://$PROJECT_DIR$/slim/scripts/finetune_resnet_v1_50_on_flowers.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#727#765#0" expanded="false" />
-          </folding>
+          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slim/train_flower.sh">
+    <entry file="file://$PROJECT_DIR$/slim/scripts/finetune_inception_v3_on_flowers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim/data/customer/desc.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faster-rcnn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/nets/inception_resnet_v2_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#727#765#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/WORKSPACE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faster-rcnn/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.screenshot2017-0706_02-10-33-981498.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/pyscreeze/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="407" column="27" lean-forward="false" selection-start-line="407" selection-start-column="27" selection-end-line="407" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/platform/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/datasets/download_and_convert_flowers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/download_and_convert_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="e#1062#1100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/datasets/convert_customer_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-          <folding>
-            <element signature="e#1112#1150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/eval_image_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-          <folding>
-            <element signature="e#764#802#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/convert_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/datasets/cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="52" column="33" lean-forward="true" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/platform/flags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/contrib/slim/python/slim/data/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/errors_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="467" column="0" lean-forward="false" selection-start-line="467" selection-start-column="0" selection-end-line="467" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/contrib/slim/python/slim/data/dataset_data_provider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/contrib/slim/python/slim/data/parallel_reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/train_flower.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/train_image_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slim/datasets/customer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="15" />
           <folding>
-            <element signature="e#849#887#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/datasets/dataset_factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="e#768#806#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slim/train_image_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#759#797#0" expanded="true" />
+            <element signature="e#861#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/slim/train_image_classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="559" column="14" lean-forward="false" selection-start-line="559" selection-start-column="8" selection-end-line="559" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/tools/trainval_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/datasets/coco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/nets/vgg16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/layer_utils/snippets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/layer_utils/proposal_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/model/nms_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/datasets/factory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling/image_feeder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/layer_utils/proposal_top_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/datasets/imdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/datasets/derek_set.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling/new_sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3588">
+          <caret line="156" column="28" lean-forward="false" selection-start-line="156" selection-start-column="28" selection-end-line="156" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/model/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3611">
+          <caret line="162" column="0" lean-forward="false" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pymouse/__init__.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/daemon.py" />
+    <entry file="file://$PROJECT_DIR$/utils/mouse.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim/nets/vgg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3312">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/layers/core.py" />
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/op_def_library.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/training/optimizer.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/framework/tensor_util.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/layers/base.py" />
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/ops/variable_scope.py" />
+    <entry file="file:///usr/lib/python3.5/glob.py" />
+    <entry file="file://$PROJECT_DIR$/src/opnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="118" column="30" lean-forward="false" selection-start-line="118" selection-start-column="30" selection-end-line="118" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eval.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/tools/reval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/tools/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/tools/visual_eval_net.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
+          <folding>
+            <element signature="e#272#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/mouse_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="e#19#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/classes_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim/data/customer/labels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slim/datasets/convert_customer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="218" column="31" lean-forward="false" selection-start-line="218" selection-start-column="25" selection-end-line="218" selection-end-column="31" />
+          <folding>
+            <element signature="e#1112#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/common_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="26" column="49" lean-forward="true" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/model/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixed_rcnn_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/model/single_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="98" column="42" lean-forward="false" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faster_rcnn/src/nets/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="279" column="30" lean-forward="false" selection-start-line="279" selection-start-column="30" selection-end-line="279" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#820#1552#0" expanded="false" />
+            <element signature="e#1593#1774#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

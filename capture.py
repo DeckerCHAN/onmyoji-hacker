@@ -1,4 +1,6 @@
-import cv2
+import os
+import tempfile
+
 import numpy as np
 import pyautogui
 
@@ -11,7 +13,9 @@ class Capture(object):
         self.height = height
 
     def np_image(self):
-        image = pyautogui.screenshot('/tmp/foo.png', region=(self.x, self.y, self.width, self.height))
-        return np.asarray(image)
+        return np.asarray(self.image())
 
-
+    def image(self):
+        image = pyautogui.screenshot(os.path.join(tempfile.gettempdir(), 'foo.png'),
+                                     region=(self.x, self.y, self.width, self.height))
+        return image

@@ -11,7 +11,7 @@ from __future__ import division
 from __future__ import print_function
 
 __sets = {}
-from lib.datasets.derek_set import derek_set
+from src.datasets.derek_set import derek_set
 
 
 def get_imdb(name):

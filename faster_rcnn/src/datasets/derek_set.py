@@ -11,7 +11,7 @@ import xml.etree.ElementTree as ET
 import numpy as np
 import scipy.sparse
 
-from datasets.imdb import imdb
+from imdb import imdb
 from model.config import cfg
 from .voc_eval import voc_eval
 
